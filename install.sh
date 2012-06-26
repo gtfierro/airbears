@@ -19,4 +19,4 @@ cp newLocationChanger.plist ~/Library/LaunchAgents/LocationChanger.plist
 rm newLocationChanger.plist
 echo "Loading ~/LibraryLaunchAgents/LocationChanger.plist..."
 launchctl load ~/Library/LaunchAgents/LocationChanger.plist
-
+echo "install succeeded"
