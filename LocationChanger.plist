@@ -7,7 +7,7 @@
 <string>tech.inhelsinki.nl.locationchanger</string>
 <key>ProgramArguments</key>
 <array>
-  <string>/usr/bin/locationchanger username password</string>
+  <string>/usr/bin/airbears.sh username password</string>
 </array>
 <key>WatchPaths</key>
 <array>
