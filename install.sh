@@ -10,6 +10,8 @@ cp LocationChanger.plist newLocationChanger.plist
 sed -i '' -e "s/username/$username/" newLocationChanger.plist
 sed -i '' -e "s/password/$password/" newLocationChanger.plist
 
+echo "creating airport syslink for simplicity... (may require sudo)"
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport
 echo "Making airbears.sh executable and hashing password..."
 chmod +x /usr/bin/airbears.sh
 echo "Copying it into /usr/bin/... (may require sudo)"
